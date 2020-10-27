@@ -7,8 +7,13 @@
   align-items: center;
 }
 
+.logo {
+  height: 20%;
+  width: 20%;
+}
+
 .main {
-  padding: 5rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -35,9 +40,8 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.title {
+  margin: 2em;
 }
 
 .title a:hover,
@@ -46,20 +50,25 @@
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
+.htitle {
+  display: flex;
+  margin: auto;
   line-height: 1.15;
-  font-size: 4rem;
+  color: #0011ff;
+  font-size: 4em;
+  text-align: center;
+  align-items: center;
 }
 
-.title,
 .description {
   text-align: center;
-}
-
-.description {
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 1em;
   line-height: 1.5;
   font-size: 1.5rem;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .code {
@@ -78,6 +87,10 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+}
+
+.halfSize {
+  transform: scale(0.8);
 }
 
 .card {
@@ -108,10 +121,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
 }
 
 @media (max-width: 600px) {
